@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", serif;
+    font-style: normal;
+    padding: 5px;
+    margin: 5px;
+
+}
+.container{
+   margin: 10px;
+   padding: 10px;
+   align-items: center;
+   
+}
+.logo{
+    height: 50px;
+    width: 90px;
+}
+.main{
+    display: flex;
+    gap: 30px;
+}
+.a{
+text-decoration: none;
+text-align: center;
+margin-left: 350px;
+margin-top: 22px;
+}
+.b{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 22px;
+}
+.main .b:hover{
+    background-color: #f4f4f4;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 50px;
+   transform: scale(1.02);
+   transition: background-color 0.3 ease, box-shadow 0.3 ease, transform 0.3 ease, border-radius 0.3 ease ;
+}
+.c{
+    text-decoration: none;
+    text-align: right;
+    margin-left: 245px;
+    margin-top: 22px;
+}
+.main .c:hover{
+   background-color: #f4f4f4;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 50px;
+   transform: scale(1.02);
+   transition: background-color 0.3 ease, box-shadow 0.3 ease, transform 0.3 ease, border-radius 0.3 ease ;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+   
+
+  
+}
+.img1{
+    height: 10px;
+    width: 10px;
+}
+.main .img1:hover{
+    background-color:#ddd ;
+    cursor: pointer;
+}
+.icon1{
+    height: 26px;
+    width: 26px;
+    padding-top:20px;
+}
+.icon2{
+    height: 24px;
+    
+  
+}
+.icon3{
+    height: 45px;
+    background-size: cover;
+    background-position: center;
+    padding: 12px;  
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    border-radius:40px;   
+}
+.main .profile:hover{
+    background-color: #f4f4f4;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 50px;
+   transform: scale(1.02);
+   transition: background-color 0.3 ease, box-shadow 0.3 ease, transform 0.3 ease, border-radius 0.3 ease ;
+}
+.searchbox{
+    display: flex;
+    gap: 50px;
+    border: 1px outset rgba(128, 128, 128, 0);
+    border-radius: 60px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.43);
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    height: 40px;
+    margin-left: 300px;
+    text-align: left;
+    font-size: small;
+       
+}
+.where{
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.searchbox .where:hover{
+    background-color: #f4f4f4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    transform: scale(1.02);
+    transition: background-color 0.3 ease, box-shadow 0.3 ease, transform 0.3 ease, border-radius 0.3 ease ;
+}
+.checkin{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.searchbox .checkin:hover{
+    background-color: #f4f4f4;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 50px;
+   transform: scale(1.02);
+   transition: background-color 0.3 ease, box-shadow 0.3 ease, transform 0.3 ease, border-radius 0.3 ease ;
+}
+.checkout{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.searchbox .checkout:hover{
+    background-color: #f4f4f4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    transform: scale(1.02);
+    transition: background-color 0.3 ease, box-shadow 0.3 ease, transform 0.3 ease, border-radius 0.3 ease ;
+}
+.who{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.searchbox .who:hover{
+    background-color: #f4f4f4;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 50px;
+   transform: scale(1.02);
+   transition: background-color 0.3 ease, box-shadow 0.3 ease, transform 0.3 ease, border-radius 0.3 ease ;
+}
+
+.icon4{
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;   
+}
+hr{
+    margin-top: 25px;
+    border: 0px;
+    height: 2px;
+    background-color: #ddd;
+}
+.maincarts{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+.pic1{
+    height: 250px;
+    width: 250px;
+}
+.subtext{
+    color: rgb(71, 71, 71);
+}
+.cart{
+    margin: 15px;
+    
+}
+
